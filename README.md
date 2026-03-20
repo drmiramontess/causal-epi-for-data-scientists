@@ -21,6 +21,7 @@ Modern data science excels at prediction, but answering causal questions, especi
 This repository is meant to bridge data science and epidemiology to help data scientists move from prediction to causal reasoning in real-world data.
 
 Ideally, this will help us think in a different way, beyond prediction:
+
 **who → when → why → what → outcome**
 
 ---
