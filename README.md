@@ -1,21 +1,27 @@
 ## Causal Inference and Epidemiology for Data Scientists
 
-Throughout my training and professional experience as a data scientist, I’ve noticed that data science often overemphasizes the power of prediction. Over the last decade, there has been an explosion of data availability, along with a common belief that more data leads to better predictions, and that with enough data, we should be able to solve the most pressing problems in any field, including healthcare and disease.
+Throughout my training and professional experience as a data scientist, I’ve noticed that data science often overemphasizes the power of prediction. Over the last 15+  years, we've witnessed the rise of big data, increased data availability, along with the common belief that more data leads to better predictions, and that with enough data, we should be able to solve the most pressing problems in any field, especially in areas like disease and healthcare.
 
 So why haven’t we?
 
-I don't think that data is the problem. There are countless large, rich datasets available. If anything, we have more data than ever before. But having data is not the same as understanding the processes that generate it.
+I don't think that data is the problem. There are countless large, rich datasets available. If anything, we have more data than ever before. But having data doesn’t mean that the people working with it are trained to understand the processes that generate it, or even to ask the right questions, especially when the goal is not just prediction, but real-world impact.
 
-Part of the challenge, as alluded to in *The Premonition* by Michael Lewis, is that we tend to operate in silos. Epidemiologists are often trained in rigorous causal reasoning, but sometimes in more theoretical or less computationally modern frameworks. Data scientists, on the other hand, are trained to combine mathematics, statistics, and machine learning within a domain, but often through a two-dimensional lens:  
-**X (features) → Y (outcome)**.
+Part of the challenge, as alluded to in *The Premonition* by Michael Lewis, is that we tend to operate in silos. People can be very strong in their own field, yet what often slows progress is not a lack of expertise, but a lack of communication across fields that are trying to solve similar problems.
 
-This paradigm is incredibly powerful for prediction. But it rarely forces us to ask: *why?*
+For example, epidemiologists are often trained in rigorous causal reasoning, but sometimes in more theoretical or less computationally modern frameworks, which can make it feel less approachable to data scientists interested in asking disease or health-related questions beyond prediction. Data scientists, on the other hand, are trained to combine mathematics, statistics, and machine learning within a domain, but are often taught to think of data with a two-dimensional lens:  
 
-We are taught early on that correlation does not imply causation. But in the era of AI and increasingly complex models, it is easy to lose sight of that principle. Models become more powerful, data becomes more abundant, and yet the underlying assumptions—and the data generating processes—are often left unexamined.
+**X (features) → Y (outcome)**
 
-Modern data science excels at prediction, but answering causal questions—especially in observational data—requires a different way of thinking.
+While this paradigm is incredibly powerful for prediction, it rarely forces us to ask: *why?*
 
-This repository bridges data science and epidemiology to help data scientists move from prediction to causal reasoning in real-world data.
+Data scientists are taught early on that correlation does not imply causation. But in the era of AI and increasingly complex models, it is easy to lose sight of that principle. Models become more powerful, data becomes more abundant, and yet the underlying assumptions, and how the data is generated, are often left unexamined.
+
+Modern data science excels at prediction, but answering causal questions, especially with observational data, requires a different way of thinking.
+
+This repository is meant to bridge data science and epidemiology to help data scientists move from prediction to causal reasoning in real-world data.
+
+Ideally, this will help us think in a different way, beyond prediction:
+**who → when → why → what → outcome**
 
 ---
 
@@ -24,7 +30,7 @@ This repository bridges data science and epidemiology to help data scientists mo
 - How to think causally with observational data  
 - Core epidemiologic principles (bias, confounding, study design)  
 - Practical causal inference methods (propensity scores, IPW, MSMs, etc.)  
-- Real-world applications using healthcare-style data  
+- Real-world applications using health data  
 
 ---
 
