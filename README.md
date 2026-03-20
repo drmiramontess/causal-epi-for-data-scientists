@@ -50,3 +50,7 @@ Ideally, this will help us think in a different way, beyond prediction:
 ## Goal
 
 To provide a practical, intuitive, and applied introduction to causal inference and epidemiology for data scientists working with real-world data.
+
+*notes*
+- provide some nuance regarding RCTs vs observational data, whay used observational data in the first place?
+- are there examples in which causal epi excelled vs just prediction? or like that a prediction paper failed to answer?
